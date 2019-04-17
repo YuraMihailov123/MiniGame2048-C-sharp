@@ -1,0 +1,15 @@
+c:\users\sodrk\documents\visual studio 2015\Projects\Physics\Physics\bin\Debug\Physics.exe.config
+c:\users\sodrk\documents\visual studio 2015\Projects\Physics\Physics\bin\Debug\Physics.exe
+c:\users\sodrk\documents\visual studio 2015\Projects\Physics\Physics\bin\Debug\Physics.pdb
+c:\users\sodrk\documents\visual studio 2015\Projects\Physics\Physics\obj\Debug\Physics.csprojResolveAssemblyReference.cache
+c:\users\sodrk\documents\visual studio 2015\Projects\Physics\Physics\obj\Debug\Physics.Form1.resources
+c:\users\sodrk\documents\visual studio 2015\Projects\Physics\Physics\obj\Debug\Physics.Properties.Resources.resources
+c:\users\sodrk\documents\visual studio 2015\Projects\Physics\Physics\obj\Debug\Physics.csproj.GenerateResource.Cache
+c:\users\sodrk\documents\visual studio 2015\Projects\Physics\Physics\obj\Debug\Physics.exe
+c:\users\sodrk\documents\visual studio 2015\Projects\Physics\Physics\obj\Debug\Physics.pdb
+c:\users\sodrk\documents\visual studio 2015\Projects\Physics\Physics\bin\Debug\Tao.OpenGl.dll
+c:\users\sodrk\documents\visual studio 2015\Projects\Physics\Physics\bin\Debug\Tao.Platform.Windows.dll
+c:\users\sodrk\documents\visual studio 2015\Projects\Physics\Physics\bin\Debug\Tao.OpenGl.xml
+c:\users\sodrk\documents\visual studio 2015\Projects\Physics\Physics\bin\Debug\Tao.Platform.Windows.xml
+c:\users\sodrk\documents\visual studio 2015\Projects\Physics\Physics\bin\Debug\Tao.FreeGlut.dll
+c:\users\sodrk\documents\visual studio 2015\Projects\Physics\Physics\bin\Debug\Tao.FreeGlut.xml
