@@ -13,3 +13,17 @@ c:\users\sodrk\documents\visual studio 2015\Projects\Physics\Physics\bin\Debug\T
 c:\users\sodrk\documents\visual studio 2015\Projects\Physics\Physics\bin\Debug\Tao.Platform.Windows.xml
 c:\users\sodrk\documents\visual studio 2015\Projects\Physics\Physics\bin\Debug\Tao.FreeGlut.dll
 c:\users\sodrk\documents\visual studio 2015\Projects\Physics\Physics\bin\Debug\Tao.FreeGlut.xml
+C:\Users\recon\OneDrive\Documents\GitHub\MiniGame2048-C-\Physics\bin\Debug\Physics.exe.config
+C:\Users\recon\OneDrive\Documents\GitHub\MiniGame2048-C-\Physics\bin\Debug\Physics.exe
+C:\Users\recon\OneDrive\Documents\GitHub\MiniGame2048-C-\Physics\bin\Debug\Physics.pdb
+C:\Users\recon\OneDrive\Documents\GitHub\MiniGame2048-C-\Physics\bin\Debug\Tao.FreeGlut.xml
+C:\Users\recon\OneDrive\Documents\GitHub\MiniGame2048-C-\Physics\bin\Debug\Tao.OpenGl.xml
+C:\Users\recon\OneDrive\Documents\GitHub\MiniGame2048-C-\Physics\bin\Debug\Tao.Platform.Windows.xml
+C:\Users\recon\OneDrive\Documents\GitHub\MiniGame2048-C-\Physics\obj\Debug\Physics.csprojAssemblyReference.cache
+C:\Users\recon\OneDrive\Documents\GitHub\MiniGame2048-C-\Physics\obj\Debug\Physics.Form1.resources
+C:\Users\recon\OneDrive\Documents\GitHub\MiniGame2048-C-\Physics\obj\Debug\Physics.Properties.Resources.resources
+C:\Users\recon\OneDrive\Documents\GitHub\MiniGame2048-C-\Physics\obj\Debug\Physics.csproj.GenerateResource.cache
+C:\Users\recon\OneDrive\Documents\GitHub\MiniGame2048-C-\Physics\obj\Debug\Physics.csproj.CoreCompileInputs.cache
+C:\Users\recon\OneDrive\Documents\GitHub\MiniGame2048-C-\Physics\obj\Debug\Physics.csproj.CopyComplete
+C:\Users\recon\OneDrive\Documents\GitHub\MiniGame2048-C-\Physics\obj\Debug\Physics.exe
+C:\Users\recon\OneDrive\Documents\GitHub\MiniGame2048-C-\Physics\obj\Debug\Physics.pdb

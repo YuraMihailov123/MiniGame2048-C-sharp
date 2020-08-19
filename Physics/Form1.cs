@@ -50,13 +50,13 @@ namespace Physics
         private void generateNewPic()
         {
             Random rnd = new Random();
-            int a = rnd.Next(0,3);
-            int b = rnd.Next(0,3);
+            int a = rnd.Next(0,4);
+            int b = rnd.Next(0,4);
             //MessageBox.Show(a+":"+b);
             while (pics[a, b] != null)
             {
-                a = rnd.Next(0, 3);
-                b = rnd.Next(0, 3);
+                a = rnd.Next(0, 4);
+                b = rnd.Next(0, 4);
             }
             map[a, b] = 1;
             pics[a, b] = new PictureBox();
@@ -132,7 +132,7 @@ namespace Physics
                             {
                                 for (int j = l+1; j < 4; j++)
                                 {
-                                    if (map[k, j] == 0 )//&& j<4)
+                                    if (map[k, j] == 0 )
                                     {
                                         ifPicsWasMoved = true;
                                         map[k, j - 1] = 0;
@@ -154,12 +154,9 @@ namespace Physics
                                             changeColor(a + b, k, j);
                                             label1.Text = "Очки: " + score;
                                             map[k, j - 1] = 0;
-                                            //map[k, j] = 1;
-                                            //pics[k, j] = pics[k, j - 1];
                                             this.Controls.Remove(pics[k, j - 1]);
                                             this.Controls.Remove(labels[k, j - 1]);
                                             pics[k, j - 1] = null;
-                                            //labels[k, j] = labels[k, j - 1];
                                             labels[k, j - 1] = null;
                                         }
                                     }
@@ -202,12 +199,9 @@ namespace Physics
                                             changeColor(a + b, k, j);
                                             label1.Text = "Очки: " + score;
                                             map[k, j + 1] = 0;
-                                            //map[k, j] = 1;
-                                            //pics[k, j] = pics[k, j - 1];
                                             this.Controls.Remove(pics[k, j + 1]);
                                             this.Controls.Remove(labels[k, j + 1]);
                                             pics[k, j + 1] = null;
-                                            //labels[k, j] = labels[k, j - 1];
                                             labels[k, j + 1] = null;
                                         }
                                     }
@@ -249,12 +243,9 @@ namespace Physics
                                             changeColor(a + b, j, l);
                                             label1.Text = "Очки: " + score;
                                             map[j - 1,l] = 0;
-                                            //map[k, j] = 1;
-                                            //pics[k, j] = pics[k, j - 1];
                                             this.Controls.Remove(pics[j - 1, l]);
                                             this.Controls.Remove(labels[j - 1, l]);
                                             pics[ j - 1,l] = null;
-                                            //labels[k, j] = labels[k, j - 1];
                                             labels[ j - 1,l] = null;
                                         }
                                     }
@@ -296,12 +287,9 @@ namespace Physics
                                             changeColor(a + b, j, l);
                                             label1.Text = "Очки: " + score;
                                             map[j + 1, l] = 0;
-                                            //map[k, j] = 1;
-                                            //pics[k, j] = pics[k, j - 1];
                                             this.Controls.Remove(pics[j + 1, l]);
                                             this.Controls.Remove(labels[j + 1, l]);
                                             pics[j + 1, l] = null;
-                                            //labels[k, j] = labels[k, j - 1];
                                             labels[j + 1, l] = null;
                                         }
                                     }
