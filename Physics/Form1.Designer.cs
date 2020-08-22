@@ -37,9 +37,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F);
             this.label1.Location = new System.Drawing.Point(13, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 29);
+            this.label1.Size = new System.Drawing.Size(100, 29);
             this.label1.TabIndex = 16;
-            this.label1.Text = "Очки:0";
+            this.label1.Text = "Score:0";
             // 
             // Form1
             // 

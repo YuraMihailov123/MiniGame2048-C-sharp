@@ -19,13 +19,12 @@ namespace Physics
         public Label[,] labels = new Label[4, 4];
         public PictureBox[,] pics = new PictureBox[4, 4];
         private int score = 0;
-        //public int[,] mapNew = new int[4, 4];
+
         public Form1()
         {
             InitializeComponent();
             this.KeyDown += new KeyEventHandler(_keyboardEvent);
             map[0, 0] = 1;
-            //map[1, 0] = 1;
             map[0, 1] = 1;
             createMap();
             createPics();
@@ -52,7 +51,6 @@ namespace Physics
             Random rnd = new Random();
             int a = rnd.Next(0,4);
             int b = rnd.Next(0,4);
-            //MessageBox.Show(a+":"+b);
             while (pics[a, b] != null)
             {
                 a = rnd.Next(0, 4);
@@ -152,7 +150,7 @@ namespace Physics
                                             labels[k, j].Text = (a + b).ToString();
                                             score += (a + b);
                                             changeColor(a + b, k, j);
-                                            label1.Text = "Очки: " + score;
+                                            label1.Text = "Score: " + score;
                                             map[k, j - 1] = 0;
                                             this.Controls.Remove(pics[k, j - 1]);
                                             this.Controls.Remove(labels[k, j - 1]);
@@ -197,7 +195,7 @@ namespace Physics
                                             labels[k, j].Text = (a + b).ToString();
                                             score += (a + b);
                                             changeColor(a + b, k, j);
-                                            label1.Text = "Очки: " + score;
+                                            label1.Text = "Score: " + score;
                                             map[k, j + 1] = 0;
                                             this.Controls.Remove(pics[k, j + 1]);
                                             this.Controls.Remove(labels[k, j + 1]);
@@ -241,7 +239,7 @@ namespace Physics
                                             labels[j, l].Text = (a + b).ToString();
                                             score += (a + b);
                                             changeColor(a + b, j, l);
-                                            label1.Text = "Очки: " + score;
+                                            label1.Text = "Score: " + score;
                                             map[j - 1,l] = 0;
                                             this.Controls.Remove(pics[j - 1, l]);
                                             this.Controls.Remove(labels[j - 1, l]);
@@ -285,7 +283,7 @@ namespace Physics
                                             labels[j, l].Text = (a + b).ToString();
                                             score += (a + b);
                                             changeColor(a + b, j, l);
-                                            label1.Text = "Очки: " + score;
+                                            label1.Text = "Score: " + score;
                                             map[j + 1, l] = 0;
                                             this.Controls.Remove(pics[j + 1, l]);
                                             this.Controls.Remove(labels[j + 1, l]);
@@ -303,7 +301,6 @@ namespace Physics
             if(ifPicsWasMoved)
             generateNewPic();
         }
-        //+56
 
     }
 }
